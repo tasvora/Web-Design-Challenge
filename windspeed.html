@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div>
+    <nav class="navbar navbar-expand-md navbar-light">
+      <!-- Brand -->
+      <a class="navbar-brand" style="background-color:#0BADA6" href="landingpage.html">Latitude</a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar" style="float: right">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="maxTemperature.html">Max Temperature</a>
+              <a class="dropdown-item" href="humidity.html">Humidity</a>
+              <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="windspeed.html">Windspeed</a>
+            </div>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- <div class="box"> -->
+  <div class="container">
+    <!-- Row 1 -->
+    <div class="row">
+
+      <div class="col-lg-7 col-md-6">
+        <div class="box">
+          <h3>Wind Speed</h3>
+          <hr>
+          <img src="visualizations/wind_speed.png" class="img-fluid" alt="wind_speed" />
+          <p>
+                Wind speed appears to slightly increase as we move away from the equator.
+          </p>
+          
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-6">
+        <div class="box">
+          <h3>Visualizations</h3>
+          <hr>
+          <div class="container">
+            <div class="row">
+              <div class="col-6">
+                <a href="maxTemperature.html">
+                <img src="visualizations/max_temperature.png" class="img-fluid" alt="max_temperature" />
+                </a>
+              </div>
+              <div class="col-6">
+                    <a href="humidity.html">
+                <img src="visualizations/humidity.png" class="img-fluid" alt="humidity" />
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                    <a href="cloudiness.html">
+                <img src="visualizations/cloudiness.png" class="img-fluid" alt="cloudiness" />
+                </a>
+              </div>
+              <div class="col-6">
+                    <a href="windspeed.html">
+                <img src="visualizations/wind_speed.png" class="img-fluid" alt="wind_speed" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- </div> -->
+
+
+
+
+
+  <!-- <footer> -->
+    <!-- <div class="footer">Copyright © TasVora</div> -->
+  <!-- </footer> -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
